@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Cat_Warehouse · Kanban</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Laquer&family=Montserrat:wght@400;800&family=Space+Mono&display=swap" rel="stylesheet">
+
+    <!-- React via CDN -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="root"></div>
+    
+    <!-- Loading components in order -->
+    <script type="text/babel" src="components/Header.jsx"></script>
+    <script type="text/babel" src="components/BoardContainer.jsx"></script>
+    <script type="text/babel" src="components/Board.jsx"></script>
+    <script type="text/babel" src="components/TaskList.jsx"></script>
+    <script type="text/babel" src="components/Task.jsx"></script>
+    <script type="text/babel" src="components/AddBoardForm.jsx"></script>
+    <script type="text/babel" src="components/TaskModal.jsx"></script>
+    <script type="text/babel" src="components/App.jsx"></script>
+
+    <!-- Main script -->
+    <script type="text/babel" src="script.jsx"></script>
+
+</body>
+</html>
